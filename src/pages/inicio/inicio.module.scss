@@ -19,16 +19,14 @@
 .segundaSessao{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 70vh;
-    border: solid, pink;
+    justify-content: space-evenly;
+    height: 98vh;
 }
 
 .sessaoContainer{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: solid, red;
 }
 
 .container{
@@ -37,8 +35,13 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: rgba(1, 87, 148, 0.3);
-    height: 45vh;
+    height: 50vh;
     width: 20vw;
     border-radius: 10px;
-    border: solid, blue;
+}
+
+h1{
+    padding-left: 10%;
+    font-size: 4vh;
+    color: rgba(0, 86, 149, 1);
 }
