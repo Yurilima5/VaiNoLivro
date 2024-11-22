@@ -11,7 +11,8 @@ return(
             </section>
 
     <section className={s.segundaSessao}>
-            <h1>Por que devo doar?</h1>            
+            <h1 className={s.h1}
+            >Por que devo doar?</h1>            
         
          <section className={s.sessaoContainer}>
          {/* seguimento dos conteiners, forma que encontrei de deixar mais semantico e organizado */}
