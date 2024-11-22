@@ -1,0 +1,44 @@
+.primeiraSessao{
+    background-image: url(../../assets/backGround.png);
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.p1{
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    width: 33vw;
+    padding-left: 10%;
+}
+
+.segundaSessao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vh;
+    border: solid, pink;
+}
+
+.sessaoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid, red;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(1, 87, 148, 0.3);
+    height: 45vh;
+    width: 20vw;
+    border-radius: 10px;
+    border: solid, blue;
+}

@@ -1,0 +1,63 @@
+.header{
+    background: linear-gradient(to right, rgba(0, 27, 47, 1), rgba(0, 86, 149, 1));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 12vh;
+}
+
+.book{
+    height: 6vh;
+}
+
+.logoHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15vw;
+    color: white;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25vw;
+}
+
+a,button{
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    transition: 500ms;
+}
+
+a:hover, button:hover{
+    color: lightblue;
+    transform: scale(110%);
+}
+
+.barraDeBusca{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 5vh;
+    width: 15vw;
+    border: solid, 2px, white;
+    border-radius: 20px;
+}
+
+input, button{
+    background: none;
+    border: none;
+    
+    
+    &::placeholder{
+        color: white;
+        font-size: 1.8vh;
+    }
+}
+
+button{
+    cursor: pointer;
+}
