@@ -1,7 +1,41 @@
 .footer{
     display: flex;
     align-items: center;
-    justify-content: spa;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: rgba(0, 86, 149, 1);
-    height: 30vh;
+}
+
+.sessaoFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+    width: 90%;
+}
+
+.navFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15vw;
+}
+
+.icones{
+    height: 35px;
+}
+
+.telefone{
+    font-size: 16px;
+}
+
+.aviso{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    font-size: 15px;
+    height: 6vh;
+    color: white;
 }
