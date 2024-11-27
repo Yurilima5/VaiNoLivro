@@ -1,3 +1,49 @@
-.black{
-    background-color: blue;
+.queroDoarSection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    font-size: 22px;
+}
+
+.iconeForm{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 23vw;
+    font-size: 16px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+    width: fit-content;
+    border: solid, rgba(0, 86, 149, 1);
+    border-radius: 20px;
+}
+
+input{
+    border: solid, rgba(0, 86, 149, 1);
+    height: 5vh;
+    width: 16vw;
+    border-radius: 13px;
+    padding-left: 1vw;
+}
+
+button{
+    background-color: rgba(0, 86, 149, 1);
+    width: 10vw;
+    height: 6vh;
+    border: none;
+    border-radius: 13px;
 }

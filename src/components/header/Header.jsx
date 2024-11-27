@@ -40,13 +40,13 @@ export default function Header(){
           </ul>
         </nav>
         <section className={s.barraDeBusca}>
-          <input
+          <input className={s.headerInput}
             type="search"
             name=""
             id=""
             placeholder="O que você procura?"
           />
-          <button>
+          <button className={s.headerButton}>
             <img src={lupa} alt="Icone de lupa branca" />
           </button>
         </section>
