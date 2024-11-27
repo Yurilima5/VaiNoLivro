@@ -1,0 +1,45 @@
+.doacoes{
+    height: 100vh;
+}
+.H1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.livros{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.coraline{
+    height: 28vh;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    height: 8vh;
+}
+
+
+figure{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border: solid, rgba(0, 86, 149, 1);
+    border-radius: 20px;
+    width: 20vw;
+    height: 45vh;
+}
+
+.inteligente{
+    height: 28vh;
+}
