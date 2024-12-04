@@ -4,8 +4,8 @@ import s from '../livrosDoados/doados.module.scss'
 
 export default function Doados(){
     return(
-        <main className={s.doacoes}>
-             <h1 className={s.H1} >Livros Doados</h1>
+        <section className={s.doacoes}>
+             <h1>Livros Doados</h1>
              <section className={s.livros}>
                 <figure>
                     <img className={s.coraline}
@@ -33,6 +33,6 @@ export default function Doados(){
                     </figcaption>
                 </figure>
             </section>
-        </main>       
+        </section>       
     )
 }

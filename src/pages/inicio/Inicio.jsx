@@ -19,28 +19,28 @@ return(
             <section className={s.container}>
              <img 
              src={comunidade}
-             alt="" />
+             alt="uma imagem representando uma rede/uniao de pessoas" />
              <p className={s.containerP}> Oferece livros a quem não tem acesso, ajudando a reduzir a exclusão social.</p>
             </section>
 
             <section className={s.container}>
              <img 
              src={lendo}
-             alt="" />
+             alt="imagem representando alguém lendo um livro" />
              <p className={s.containerP}>Estimula o hábito da leitura e o aprendizado contínuo.</p>
             </section>
 
             <section className={s.container}>
              <img 
              src={forca}
-             alt="" />
+             alt="desenho ilustrando a força de pessoas unidas" />
              <p className={s.containerP}>Fornece conhecimento e inspiração, permitindo que indivíduos transformem suas vidas.</p>
             </section>
 
             <section className={s.container}>
              <img 
              src={balanca}
-             alt="" />
+             alt="imagem de uma balança, representando o contexto do texto abaixo" />
              <p className={s.containerP}>Garante que todos, independentemente de sua condição, tenham oportunidades de aprendizado.</p>
             </section>
             

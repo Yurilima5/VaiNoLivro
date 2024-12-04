@@ -18,11 +18,18 @@
     color: white;
 }
 
+.navHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25vw;
+}
+
 ul{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 25vw;
+    width: 100%;
 }
 
 a,button{
@@ -60,4 +67,33 @@ a:hover, button:hover{
 
 button{
     cursor: pointer;
+}
+
+@media (max-width: 780px){
+    .header{
+        flex-direction: column;
+        height: 15vh;
+        
+        h1{
+            font-size: 3.4vh;
+        }
+    }
+    
+    .logoHeader{
+        width: 90%;
+        justify-content: space-evenly;
+    }
+
+    .navHeader{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        ul{
+            width: 85%;
+        }
+    }
+
+    .barraDeBusca{
+        display: none;
+    }
 }

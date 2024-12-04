@@ -1,12 +1,16 @@
 .doacoes{
     height: 100vh;
+
+        h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 32px;
+        height: 10vh;
+        }
+
 }
-.H1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 10vh;
-}
+
 
 .livros{
     display: flex;
