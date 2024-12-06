@@ -40,3 +40,22 @@
     height: 6vh;
     color: white;
 }
+
+@media (max-width: 780px){
+    .sessaoFooter{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .navFooter{
+     width: 70%;   
+    }
+
+    .icones{
+        height: 27px;
+    }
+
+    .aviso{
+        text-align: center;
+    }
+}
